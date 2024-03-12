@@ -1,5 +1,6 @@
 package ra.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BaitapArray {
@@ -24,5 +25,6 @@ public class BaitapArray {
             }
             System.out.println(string);
         }
+        int[] arr ={1,2,3,4};
     }
 }
