@@ -1,10 +1,12 @@
 package ra.demo;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class Baitap7 {
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//        String[] arr = new String[][]{};
         // khai báo 1 biến để nhận giá tr nhập vào
         System.out.println("Hãy nhập vào số hàng của ma tran");
         int col = Integer.parseInt(sc.nextLine());
@@ -34,4 +36,5 @@ public class Baitap7 {
         System.out.println("Tông các phần tử trên đường chéo chính  = "+sum);
 
     }
+
 }
